@@ -1,3 +1,6 @@
 {
-  "item.lost_infinity_modern.celestial_iron": "Celestial Iron"
+  "item.lost_infinity_modern.celestial_iron": "Celestial Iron",
+  "item.lost_infinity_modern.celestial_diamond": "Celestial Diamond",
+
+  "creativetab.lost_infinity_material_tab": "Lost Infinity Materials"
 }

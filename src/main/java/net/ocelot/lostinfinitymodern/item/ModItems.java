@@ -13,6 +13,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> CELESTIAL_IRON = ITEMS.register("celestial_iron",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> CELESTIAL_DIAMOND = ITEMS.register("celestial_diamond",
+            () -> new Item(new Item.Properties()));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
