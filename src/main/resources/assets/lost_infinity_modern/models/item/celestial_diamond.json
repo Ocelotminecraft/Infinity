@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "lost_infinity_modern:item/celestial_diamond"
+    "layer0": "lost_infinity_modern:item/celestial_items/celestial_diamond"
   }
 }
