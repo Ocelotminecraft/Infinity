@@ -41,6 +41,8 @@
   "item.lost_infinity_modern.deviant_wing": "Deviant Wing",
   "item.lost_infinity_modern.deviant_wool": "Deviant Wool",
 
+  "block.lost_infinity_modern.astrorock": "Astrorock",
 
-  "creativetab.lost_infinity_material_tab": "Lost Infinity Materials"
+  "creativetab.lost_infinity_material_tab": "Lost Infinity Materials",
+  "creativetab.lost_infinity_block_tab": "Lost Infinity Blocks"
 }

@@ -14,8 +14,10 @@ import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.ocelot.lostinfinitymodern.block.AstroBlocks;
+import net.ocelot.lostinfinitymodern.item.AstroBlockItems;
 import net.ocelot.lostinfinitymodern.item.DeviantItems;
-import net.ocelot.lostinfinitymodern.item.ModCreativeModeTabs;
+import net.ocelot.lostinfinitymodern.item.LostInfinityTabs;
 import net.ocelot.lostinfinitymodern.item.CelestialItems;
 import org.slf4j.Logger;
 
@@ -32,10 +34,13 @@ public class LostInfinityModern
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        ModCreativeModeTabs.register(modEventBus);
+        LostInfinityTabs.register(modEventBus);
 
         CelestialItems.register(modEventBus);
         DeviantItems.preregister(modEventBus);
+        AstroBlocks.preRegister(modEventBus);
+        AstroBlockItems.register(modEventBus);
+
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 

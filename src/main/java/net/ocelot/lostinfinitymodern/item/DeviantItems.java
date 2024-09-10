@@ -36,7 +36,6 @@ public class DeviantItems {
 
 
     public static void register(IEventBus eventBus) {
-
         ITEMS.register(eventBus);
     }
 }

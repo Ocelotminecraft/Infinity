@@ -1,0 +1,7 @@
+{
+  "variants" : {
+    "" : {
+      "model" : "lost_infinity_modern:block/astro_blocks/astrorock"
+    }
+  }
+}
