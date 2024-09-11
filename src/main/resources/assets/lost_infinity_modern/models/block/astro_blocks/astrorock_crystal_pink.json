@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "lost_infinity_modern:block/astro_blocks/astrorock_crystal_pink"
+    }
+}

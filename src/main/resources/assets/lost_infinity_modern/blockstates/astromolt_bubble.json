@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "": [
+        { "model": "lost_infinity_modern:block/astro_blocks/astromolt_bubble1", "weight": 100 },
+        { "model": "lost_infinity_modern:block/astro_blocks/astromolt_bubble2", "weight": 100 },
+        { "model": "lost_infinity_modern:block/astro_blocks/astromolt_bubble3", "weight": 100 },
+        { "model": "lost_infinity_modern:block/astro_blocks/astromolt_bubble4", "weight": 100 },
+        { "model": "lost_infinity_modern:block/astro_blocks/astromolt_bubble5", "weight": 100 },
+        { "model": "lost_infinity_modern:block/astro_blocks/astromolt_bubble6", "weight": 100 }
+        ]
+    }
+}

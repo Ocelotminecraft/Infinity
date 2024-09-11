@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+        { "model": "lost_infinity_modern:block/astro_blocks/astromud", "weight": 100 },
+        { "model": "lost_infinity_modern:block/astro_blocks/astromud2", "weight": 100 },
+        { "model": "lost_infinity_modern:block/astro_blocks/astromud3", "weight": 100 },
+        { "model": "lost_infinity_modern:block/astro_blocks/astromud4", "weight": 100 }
+        ]
+    }
+}
