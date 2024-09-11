@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "": [
+        { "model": "lost_infinity_modern:block/astro_blocks/astrorock_hardened", "weight": 100 },
+        { "model": "lost_infinity_modern:block/astro_blocks/astrorock_hardened2", "weight": 100 },
+        { "model": "lost_infinity_modern:block/astro_blocks/astrorock_hardened3", "weight": 100 },
+        { "model": "lost_infinity_modern:block/astro_blocks/astrorock_hardened4", "weight": 100 },
+        { "model": "lost_infinity_modern:block/astro_blocks/astrorock_hardened5", "weight": 100 },
+        { "model": "lost_infinity_modern:block/astro_blocks/astrorock_hardened6", "weight": 100 },
+        { "model": "lost_infinity_modern:block/astro_blocks/astrorock_hardened7", "weight": 100 }
+        ]
+    }
+}

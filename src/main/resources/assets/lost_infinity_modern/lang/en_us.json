@@ -41,7 +41,27 @@
   "item.lost_infinity_modern.deviant_wing": "Deviant Wing",
   "item.lost_infinity_modern.deviant_wool": "Deviant Wool",
 
+  "block.lost_infinity_modern.astrobarrier_blue": "Blue Astrobarrier",
+  "block.lost_infinity_modern.astrobarrier_green": "Green Astrobarrier",
+  "block.lost_infinity_modern.astrobarrier_purple": "Purple Astrobarrier",
+  "block.lost_infinity_modern.astrobarrier_yellow": "Yellow Astrobarrier",
+  "block.lost_infinity_modern.astromolt": "Astromolt",
+  "block.lost_infinity_modern.astromolt_bubble": "Astromolt Bubble",
+  "block.lost_infinity_modern.astromud": "Astromud",
   "block.lost_infinity_modern.astrorock": "Astrorock",
+  "block.lost_infinity_modern.astrorock_blue": "Blue Astrorock",
+  "block.lost_infinity_modern.astrorock_crystal_blue": "Blue Astrorock Crystal",
+  "block.lost_infinity_modern.astrorock_glass": "Astrorock Glass",
+  "block.lost_infinity_modern.astrorock_green": "Green Astrorock",
+  "block.lost_infinity_modern.astrorock_hardened": "Hardened Astrorock",
+  "block.lost_infinity_modern.astrorock_lamp_blue": "Blue Astrorock Lamp",
+  "block.lost_infinity_modern.astrorock_lamp_green": "Green Astrorock Lamp",
+  "block.lost_infinity_modern.astrorock_lamp_purple": "Purple Astrorock Lamp",
+  "block.lost_infinity_modern.astrorock_lamp_yellow": "Yellow Astrorock Lamp",
+  "block.lost_infinity_modern.astrorock_purple": "Purple Astrorock",
+  "block.lost_infinity_modern.astrorock_yellow": "Yellow Astrorock",
+  "block.lost_infinity_modern.astrosteel": "Astrosteel",
+
 
   "creativetab.lost_infinity_material_tab": "Lost Infinity Materials",
   "creativetab.lost_infinity_block_tab": "Lost Infinity Blocks"

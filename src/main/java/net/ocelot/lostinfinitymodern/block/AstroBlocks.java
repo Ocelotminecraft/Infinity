@@ -22,7 +22,10 @@ public class AstroBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, LostInfinityModern.MOD_ID);
 
     public static final String[] ASTRO_BLOCK_NAMES = new String[] {
-            "astrorock"
+            "astrobarrier_blue", "astrobarrier_green", "astrobarrier_purple", "astrobarrier_yellow", "astromolt",
+            "astromolt_bubble", "astromud", "astrorock", "astrorock_blue", "astrorock_crystal_blue",
+            "astrorock_glass", "astrorock_green", "astrorock_hardened", "astrorock_lamp_blue", "astrorock_lamp_green",
+            "astrorock_lamp_purple", "astrorock_lamp_yellow", "astrorock_purple", "astrorock_yellow", "astrosteel"
     };
 
     public static final ArrayList<RegistryObject<Block>> ASTRO_BLOCKS = new ArrayList<>();
