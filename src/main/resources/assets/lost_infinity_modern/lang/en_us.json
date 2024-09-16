@@ -4,6 +4,7 @@
   "item.lost_infinity_modern.celestial_emerald": "Celestial Emerald",
   "item.lost_infinity_modern.celestial_redstone": "Celestial Redstone",
   "item.lost_infinity_modern.celestial_quartz": "Celestial Quartz",
+
   "item.lost_infinity_modern.deviant_bat_wing": "Deviant Bat Wing",
   "item.lost_infinity_modern.deviant_bear_hide": "Deviant Bear Hide",
   "item.lost_infinity_modern.deviant_beef": "Deviant Beef",
@@ -41,6 +42,9 @@
   "item.lost_infinity_modern.deviant_wing": "Deviant Wing",
   "item.lost_infinity_modern.deviant_wool": "Deviant Wool",
 
+  "item.lost_infinity_modern.rod_of_deviation": "Rod Of Deviation",
+
+
   "block.lost_infinity_modern.astrobarrier_blue": "Blue Astrobarrier",
   "block.lost_infinity_modern.astrobarrier_green": "Green Astrobarrier",
   "block.lost_infinity_modern.astrobarrier_purple": "Purple Astrobarrier",
@@ -63,6 +67,6 @@
   "block.lost_infinity_modern.astrosteel": "Astrosteel",
 
 
-  "creativetab.lost_infinity_material_tab": "Lost Infinity Materials",
-  "creativetab.lost_infinity_block_tab": "Lost Infinity Blocks"
+  "itemGroup.lost_infinity_modern.materials": "Lost Infinity Materials",
+  "itemGroup.lost_infinity_modern.blocks": "Lost Infinity Blocks"
 }

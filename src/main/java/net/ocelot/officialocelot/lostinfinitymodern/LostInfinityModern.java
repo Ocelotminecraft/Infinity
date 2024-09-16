@@ -1,7 +1,6 @@
-package net.ocelot.lostinfinitymodern;
+package net.ocelot.officialocelot.lostinfinitymodern;
 
 import com.mojang.logging.LogUtils;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -14,11 +13,12 @@ import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.ocelot.lostinfinitymodern.block.AstroBlocks;
-import net.ocelot.lostinfinitymodern.item.AstroBlockItems;
-import net.ocelot.lostinfinitymodern.item.DeviantItems;
-import net.ocelot.lostinfinitymodern.item.LostInfinityTabs;
-import net.ocelot.lostinfinitymodern.item.CelestialItems;
+import net.ocelot.officialocelot.lostinfinitymodern.block.RegisterCommonBlocks;
+import net.ocelot.officialocelot.lostinfinitymodern.item.RegisterMaterials;
+import net.ocelot.officialocelot.lostinfinitymodern.item.tools.RegisterTools;
+import net.ocelot.officialocelot.lostinfinitymodern.registration.RegisterBlocks;
+import net.ocelot.officialocelot.lostinfinitymodern.registration.RegisterCreativeModeTabs;
+import net.ocelot.officialocelot.lostinfinitymodern.registration.RegisterItems;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -33,13 +33,23 @@ public class LostInfinityModern
     public LostInfinityModern()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        // Block Preregistration
+        RegisterCommonBlocks.register();
 
-        LostInfinityTabs.register(modEventBus);
+        // Item Preregistration
+        RegisterMaterials.register();
+        RegisterTools.register();
 
-        CelestialItems.register(modEventBus);
-        DeviantItems.preregister(modEventBus);
-        AstroBlocks.preRegister(modEventBus);
-        AstroBlockItems.register(modEventBus);
+        // Creative Tab Registration
+        RegisterCreativeModeTabs.register(modEventBus);
+
+        // Register Blocks
+        RegisterBlocks.register(modEventBus);
+
+        // Register Items
+        RegisterItems.register(modEventBus);
+
+
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -54,15 +64,10 @@ public class LostInfinityModern
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
 
-    private void commonSetup(final FMLCommonSetupEvent event)
-    {
+    private void commonSetup(final FMLCommonSetupEvent event) {
     }
 
-    // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-
-        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
