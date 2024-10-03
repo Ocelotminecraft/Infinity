@@ -28,7 +28,7 @@ public class LostInfinityModern
     // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "lost_infinity_modern";
     // Directly reference a slf4j logger
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
 
     public LostInfinityModern()
     {

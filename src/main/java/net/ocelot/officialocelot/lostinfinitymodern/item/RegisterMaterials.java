@@ -17,6 +17,9 @@ public class RegisterMaterials {
             "deviant_slimeball", "deviant_snowball", "deviant_spider_eye", "deviant_star",
             "deviant_string", "deviant_wheat", "deviant_wing", "deviant_wool", "celestial_iron",
             "celestial_diamond", "celestial_redstone", "celestial_quartz", "celestial_emerald",
+            "master_crafted_alloy", "master_forged_ingot", "master_cut_diamond", "master_faceted_quartz",
+            "master_enthralled_emerald", "master_charged_redstone",
+
     };
 
     public static void register() {

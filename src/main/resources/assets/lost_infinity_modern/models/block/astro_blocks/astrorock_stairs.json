@@ -1,8 +1,0 @@
-{
-    "parent": "block/stairs",
-    "textures": {
-        "bottom": "lost_infinity_modern:block/astro_blocks/astrorock",
-        "top": "lost_infinity_modern:block/astro_blocks/astrorock",
-        "side": "lost_infinity_modern:block/astro_blocks/astrorock"
-    }
-}

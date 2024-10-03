@@ -16,18 +16,20 @@ public class RegisterItems {
     public static final DeferredRegister<Item> ITEM_DEFERRED_REGISTER =
             DeferredRegister.create(ForgeRegistries.ITEMS, LostInfinityModern.MOD_ID);
 
-    public static final HashMap<String, RegistryObject<? extends Item>> ITEM_LIST = new HashMap<>();
-    public static final HashMap<String, RegistryObject<? extends Item>> BLOCK_ITEM_LIST = new HashMap<>();
+    public static final HashMap<String, RegistryObject<Item>> ITEM_LIST = new HashMap<>();
+    public static final HashMap<String, RegistryObject<Item>> BLOCK_ITEM_LIST = new HashMap<>();
 
-    public static <T extends Block> RegistryObject<? extends Item> registerBlockItem(String name, RegistryObject<T> block) {
-        RegistryObject<? extends Item> item = ITEM_DEFERRED_REGISTER.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
+    public static final RegistryObject<Item> DEFAULT_ITEM = ITEM_DEFERRED_REGISTER.register("useless_item", () -> new Item(new Item.Properties()));
+
+    public static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block) {
+        RegistryObject<Item> item = ITEM_DEFERRED_REGISTER.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
         BLOCK_ITEM_LIST.put(name, item);
         ITEM_LIST.put(name, item);
         return item;
     }
 
-    public static RegistryObject<? extends Item> registerItem(String name, Supplier<? extends Item> properties) {
-        RegistryObject<? extends Item> item = ITEM_DEFERRED_REGISTER.register(name, properties);
+    public static RegistryObject<Item> registerItem(String name, Supplier<Item> properties) {
+        RegistryObject<Item> item = ITEM_DEFERRED_REGISTER.register(name, properties);
         ITEM_LIST.put(name, item);
         return item;
     }

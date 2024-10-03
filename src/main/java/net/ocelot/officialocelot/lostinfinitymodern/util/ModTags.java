@@ -10,7 +10,8 @@ import net.ocelot.officialocelot.lostinfinitymodern.LostInfinityModern;
 
 public class ModTags {
     public static class Blocks {
-
+        public static TagKey<Block> NEEDS_FORGEFIRE_TOOL = tag("needs_forgefire_tool");
+        public static TagKey<Block> CELESTIAL_SPECIAL_DROPS = tag("celestial_special_drops");
 
         private static TagKey<Block> tag(String name) {
             return BlockTags.create(new ResourceLocation(LostInfinityModern.MOD_ID, name));
@@ -29,4 +30,6 @@ public class ModTags {
             return TagKey.create(Registries.ENTITY_TYPE ,new ResourceLocation(LostInfinityModern.MOD_ID, name));
         }
     }
+
+
 }

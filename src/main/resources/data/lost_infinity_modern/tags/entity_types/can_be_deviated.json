@@ -1,5 +1,36 @@
 {
   "values": [
-    "minecraft:cow"
+    "minecraft:bat",
+    "minecraft:blaze",
+    "minecraft:cave_spider",
+    "minecraft:chicken",
+    "minecraft:cow",
+    "minecraft:creeper",
+    "minecraft:enderman",
+    "minecraft:ghast",
+    "minecraft:guardian",
+    "minecraft:horse",
+    "minecraft:husk",
+    "minecraft:iron_golem",
+    "minecraft:llama",
+    "minecraft:magma_cube",
+    "minecraft:mooshroom",
+    "minecraft:ocelot",
+    "minecraft:pig",
+    "minecraft:piglin",
+    "minecraft:polar_bear",
+    "minecraft:sheep",
+    "minecraft:shulker",
+    "minecraft:skeleton",
+    "minecraft:slime",
+    "minecraft:snow_golem",
+    "minecraft:spider",
+    "minecraft:squid",
+    "minecraft:stray",
+    "minecraft:vex",
+    "minecraft:witch",
+    "minecraft:wither_skeleton",
+    "minecraft:wolf",
+    "minecraft:zombie"
   ]
 }

@@ -41,9 +41,16 @@
   "item.lost_infinity_modern.deviant_wheat": "Deviant Wheat",
   "item.lost_infinity_modern.deviant_wing": "Deviant Wing",
   "item.lost_infinity_modern.deviant_wool": "Deviant Wool",
+  "item.lost_infinity_modern.master_crafted_alloy": "Master Crafted Alloy",
+  "item.lost_infinity_modern.master_forged_ingot": "Master Forged Ingot",
+  "item.lost_infinity_modern.master_enthralled_emerald": "Master Enthralled Emerald",
+  "item.lost_infinity_modern.master_cut_diamond": "Master Cut Diamond",
+  "item.lost_infinity_modern.master_charged_redstone": "Master Charged Redstone",
+  "item.lost_infinity_modern.master_faceted_quartz": "Master Faceted Quartz",
 
   "item.lost_infinity_modern.rod_of_deviation": "Rod Of Deviation",
-
+  "item.lost_infinity_modern.forgefire_pickaxe": "Forgefire Pickaxe",
+  "item.lost_infinity_modern.celestial_miners_pickaxe": "Celestial Miner's Pickaxe",
 
   "block.lost_infinity_modern.astrobarrier_blue": "Blue Astrobarrier",
   "block.lost_infinity_modern.astrobarrier_green": "Green Astrobarrier",
@@ -66,7 +73,11 @@
   "block.lost_infinity_modern.astrorock_yellow": "Yellow Astrorock",
   "block.lost_infinity_modern.astrosteel": "Astrosteel",
 
+  "block.lost_infinity_modern.astrorock_stairs": "Astrorock Stairs",
+  "block.lost_infinity_modern.astrorock_slab": "Astrorock Slab",
 
   "itemGroup.lost_infinity_modern.materials": "Lost Infinity Materials",
+  "itemGroup.lost_infinity_modern.tools": "Lost Infinity Tools",
+
   "itemGroup.lost_infinity_modern.blocks": "Lost Infinity Blocks"
 }

@@ -1,0 +1,13 @@
+{
+  "values": [
+    "minecraft:iron_ore",
+    "minecraft:diamond_ore",
+    "minecraft:emerald_ore",
+    "minecraft:redstone_ore",
+    "minecraft:nether_quartz_ore",
+    "minecraft:deepslate_iron_ore",
+    "minecraft:deepslate_diamond_ore",
+    "minecraft:deepslate_emerald_ore",
+    "minecraft:deepslate_redstone_ore"
+  ]
+}
