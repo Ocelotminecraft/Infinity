@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "": [
+        { "model": "lostinfinitymodern:block/astromolt_bubble1", "weight": 100 },
+        { "model": "lostinfinitymodern:block/astromolt_bubble2", "weight": 100 },
+        { "model": "lostinfinitymodern:block/astromolt_bubble3", "weight": 100 },
+        { "model": "lostinfinitymodern:block/astromolt_bubble4", "weight": 100 },
+        { "model": "lostinfinitymodern:block/astromolt_bubble5", "weight": 100 },
+        { "model": "lostinfinitymodern:block/astromolt_bubble6", "weight": 100 }
+        ]
+    }
+}

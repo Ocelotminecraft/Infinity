@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+        { "model": "lostinfinitymodern:block/astromud", "weight": 100 },
+        { "model": "lostinfinitymodern:block/astromud2", "weight": 100 },
+        { "model": "lostinfinitymodern:block/astromud3", "weight": 100 },
+        { "model": "lostinfinitymodern:block/astromud4", "weight": 100 }
+        ]
+    }
+}

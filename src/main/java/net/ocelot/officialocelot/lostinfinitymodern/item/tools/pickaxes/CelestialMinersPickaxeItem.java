@@ -37,8 +37,7 @@ public class CelestialMinersPickaxeItem extends PickaxeItem {
                 LootParams.Builder pParams = new LootParams.Builder(pLevel.getServer().getLevel(pEntityLiving.getCommandSenderWorld().dimension())).withParameter(LootContextParams.BLOCK_STATE, pState).withParameter(LootContextParams.TOOL, pEntityLiving.getMainHandItem()).withParameter(LootContextParams.ORIGIN, pPos.getCenter());
                 LootParams lootparams = pParams.withParameter(LootContextParams.BLOCK_STATE, pState).create(LootContextParamSets.BLOCK);
                 LootTable lootTable = pLevel.getServer().getLootData().getLootTable(new ResourceLocation(ForgeRegistries.BLOCKS.getKey(pState.getBlock()).getNamespace() +":"+"block/celestial_mined_blocks/"+ ForgeRegistries.BLOCKS.getKey(pState.getBlock()).getPath()));
-                LostInfinityModern.LOGGER.debug((new ResourceLocation(ForgeRegistries.BLOCKS.getKey(pState.getBlock()).getNamespace() +":"+"block/celestial_mined_blocks/"+ ForgeRegistries.BLOCKS.getKey(pState.getBlock()).getPath())).toString());
-                LevelInteractionUtil.dropLootTable(lootTable, pLevel, pPos, lootparams);
+                LevelInteractionUtil.dropLootTable(pLevel, lootTable, pPos, lootparams);
             }
         }
         return true;

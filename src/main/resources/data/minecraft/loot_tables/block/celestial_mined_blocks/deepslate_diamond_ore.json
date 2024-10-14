@@ -12,7 +12,7 @@
           "type": "item",
           "weight": 1,
           "quality": 5,
-          "name": "lost_infinity_modern:celestial_diamond",
+          "name": "lostinfinitymodern:celestial_diamond",
           "functions": [
             {
               "function": "set_count",

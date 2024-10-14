@@ -12,7 +12,7 @@
           "type": "item",
           "weight": 1,
           "quality": 5,
-          "name": "lost_infinity_modern:celestial_emerald",
+          "name": "lostinfinitymodern:celestial_emerald",
           "functions": [
             {
               "function": "set_count",

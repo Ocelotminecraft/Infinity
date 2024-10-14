@@ -30,10 +30,8 @@ public class ModItemModelProvider extends ItemModelProvider {
             "deviant_slimeball", "deviant_snowball", "deviant_spider_eye", "deviant_star",
             "deviant_string", "deviant_wheat", "deviant_wing", "deviant_wool", "celestial_iron",
             "celestial_diamond", "celestial_redstone", "celestial_quartz", "celestial_emerald",
-            "master_crafted_alloy", "master_forged_ingot", "master_cut_diamond", "master_faceted_quartz",
+            "master_crafted_alloy", "master_forged_iron", "master_cut_diamond", "master_faceted_quartz",
             "master_enthralled_emerald", "master_charged_redstone",
-
-            "rod_of_deviation",
     };
 
     @Override
@@ -41,6 +39,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         for(String itemName:SIMPLE_ITEM_NAMES) {
             simpleItem(RegisterItems.ITEM_LIST.getOrDefault(itemName, RegisterItems.DEFAULT_ITEM));
         }
+
+        handheldItem(RegisterItems.ITEM_LIST.getOrDefault("rod_of_deviation", RegisterItems.DEFAULT_ITEM));
 
         handheldItem(RegisterItems.ITEM_LIST.getOrDefault("forgefire_pickaxe", RegisterItems.DEFAULT_ITEM));
         handheldItem(RegisterItems.ITEM_LIST.getOrDefault("celestial_miners_pickaxe", RegisterItems.DEFAULT_ITEM));
