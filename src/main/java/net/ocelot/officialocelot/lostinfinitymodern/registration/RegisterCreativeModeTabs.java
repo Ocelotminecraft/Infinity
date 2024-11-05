@@ -19,6 +19,7 @@ public class RegisterCreativeModeTabs {
     public static final ArrayList<RegistryObject<Item>> LOST_INFINITY_MATERIAL_LIST = new ArrayList<>();
     public static final ArrayList<RegistryObject<Item>> LOST_INFINITY_BLOCK_LIST = new ArrayList<>();
     public static final ArrayList<RegistryObject<Item>> LOST_INFINITY_TOOL_LIST = new ArrayList<>();
+    public static final ArrayList<RegistryObject<Item>> LOST_INFINITY_WEAPON_LIST = new ArrayList<>();
 
     public static final RegistryObject<CreativeModeTab> LOST_INFINITY_MATERIALS =
             TABS.register("material_tab", () -> CreativeModeTab.builder()
@@ -48,6 +49,17 @@ public class RegisterCreativeModeTabs {
                     .title(Component.translatable("itemGroup." + LostInfinityModern.MOD_ID + ".tools"))
                     .displayItems((pParameters, pOutput) -> {
                         for (RegistryObject<? extends Item> item : LOST_INFINITY_TOOL_LIST) {
+                            pOutput.accept(item.get());
+                        }
+                    })
+                    .build());
+
+    public static final RegistryObject<CreativeModeTab> LOST_INFINITY_WEAPONS =
+            TABS.register("weapon_tab", () -> CreativeModeTab.builder()
+                    .icon(() -> new ItemStack(RegisterItems.ITEM_LIST.get("blades_of_duality").get()))
+                    .title(Component.translatable("itemGroup." + LostInfinityModern.MOD_ID + ".weapons"))
+                    .displayItems((pParameters, pOutput) -> {
+                        for (RegistryObject<? extends Item> item : LOST_INFINITY_WEAPON_LIST) {
                             pOutput.accept(item.get());
                         }
                     })

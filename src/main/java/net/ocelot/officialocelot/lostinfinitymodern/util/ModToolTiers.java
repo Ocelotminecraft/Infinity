@@ -24,4 +24,9 @@ public class ModToolTiers {
                     Tags.Blocks.NEEDS_NETHERITE_TOOL, () -> Ingredient.of(Items.NETHER_STAR)),
             new ResourceLocation(LostInfinityModern.MOD_ID, "celestial"), List.of(Tiers.DIAMOND), List.of(FORGEFIRE)
     );
+    public static final Tier INFINITY = TierSortingRegistry.registerTier(
+            new ForgeTier(4, -1,8f, 2f, 30,
+                    Tags.Blocks.NEEDS_NETHERITE_TOOL, () -> Ingredient.of(Items.NETHER_STAR)),
+            new ResourceLocation(LostInfinityModern.MOD_ID, "infinity"), List.of(Tiers.DIAMOND), List.of()
+    );
 }

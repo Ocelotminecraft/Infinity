@@ -16,6 +16,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.ocelot.officialocelot.lostinfinitymodern.block.RegisterCommonBlocks;
 import net.ocelot.officialocelot.lostinfinitymodern.item.RegisterMaterials;
 import net.ocelot.officialocelot.lostinfinitymodern.item.tools.RegisterTools;
+import net.ocelot.officialocelot.lostinfinitymodern.item.weapons.RegisterWeapons;
 import net.ocelot.officialocelot.lostinfinitymodern.registration.RegisterBlocks;
 import net.ocelot.officialocelot.lostinfinitymodern.registration.RegisterCreativeModeTabs;
 import net.ocelot.officialocelot.lostinfinitymodern.registration.RegisterItems;
@@ -39,6 +40,7 @@ public class LostInfinityModern
         // Item Preregistration
         RegisterMaterials.register();
         RegisterTools.register();
+        RegisterWeapons.register();
 
         // Creative Tab Registration
         RegisterCreativeModeTabs.register(modEventBus);

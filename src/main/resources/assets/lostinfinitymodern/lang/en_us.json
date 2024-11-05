@@ -41,7 +41,6 @@
   "item.lostinfinitymodern.deviant_wheat": "Deviant Wheat",
   "item.lostinfinitymodern.deviant_wing": "Deviant Wing",
   "item.lostinfinitymodern.deviant_wool": "Deviant Wool",
-
   "item.lostinfinitymodern.master_crafted_alloy": "Master Crafted Alloy",
   "item.lostinfinitymodern.master_forged_iron": "Master Forged Iron",
   "item.lostinfinitymodern.master_enthralled_emerald": "Master Enthralled Emerald",
@@ -52,6 +51,8 @@
   "item.lostinfinitymodern.rod_of_deviation": "Rod Of Deviation",
   "item.lostinfinitymodern.forgefire_pickaxe": "Forgefire Pickaxe",
   "item.lostinfinitymodern.celestial_miners_pickaxe": "Celestial Miner's Pickaxe",
+
+  "item.lostinfinitymodern.blades_of_duality": "Blades Of Duality",
 
   "block.lostinfinitymodern.astrobarrier_blue": "Blue Astrobarrier",
   "block.lostinfinitymodern.astrobarrier_green": "Green Astrobarrier",
@@ -79,6 +80,12 @@
 
   "itemGroup.lostinfinitymodern.materials": "Lost Infinity Materials",
   "itemGroup.lostinfinitymodern.tools": "Lost Infinity Tools",
+  "itemGroup.lostinfinitymodern.weapons": "Lost Infinity Weapons",
+  "itemGroup.lostinfinitymodern.blocks": "Lost Infinity Blocks",
 
-  "itemGroup.lostinfinitymodern.blocks": "Lost Infinity Blocks"
+  "death.attack.infinity": "%s was absolutely annihilated by %s",
+  "death.attack.infinity.item": "%s was completely obliterated by %s using %s",
+
+  "key.lostinfinitymodern.switch_mode_item": "Switch Item Mode",
+  "key.categories.lostinfinitymodern.infinity": "Lost Infinity"
 }

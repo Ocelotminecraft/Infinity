@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "lostinfinitymodern:block/astrorock_slab"
+    },
+    "type=double": {
+      "model": "lostinfinitymodern:block/astrorock"
+    },
+    "type=top": {
+      "model": "lostinfinitymodern:block/astrorock_slab_top"
+    }
+  }
+}

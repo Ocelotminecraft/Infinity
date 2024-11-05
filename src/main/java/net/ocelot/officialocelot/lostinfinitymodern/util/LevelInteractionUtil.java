@@ -24,7 +24,7 @@ public class LevelInteractionUtil {
         }
     }
 
-    static public void spawnParticlesAt(Level level, ParticleOptions pOption, Vec3 blockPos, Vector3d offsetRandom, int amount, Color color, double speed) {
+    static public void spawnParticlesAt(Level level, ParticleOptions pOption, Vec3 blockPos, Vec3 offsetRandom, int amount, Color color, double speed) {
         if(level instanceof ServerLevel) {
             for (int i = 0; i < amount; i++) {
                 Vector3d offsetPos = new Vector3d(blockPos.x + offsetRandom.x * (level.random.nextDouble() * 2.0 - 1.0), blockPos.y + offsetRandom.y * (level.random.nextDouble() * 2.0 - 1.0), blockPos.z + offsetRandom.z * (level.random.nextDouble() * 2.0 - 1.0));
